@@ -1,3 +1,5 @@
+/*********** Tag Selectors *************/
+
 body {
   margin: 0;
   text-align: center;
@@ -8,7 +10,7 @@ body {
 hr {
   border-style: none;
   border-top-style: dotted;
-  width: 5%;
+  width: 4%;
   border-color: grey;
   border-width: 5px;
   margin: 100px auto 100px auto;
@@ -29,12 +31,33 @@ h2 {
   margin-top: 0;
   color: #434e52;
   font-weight: normal;
+  padding-bottom: 20px;
 }
 
 h3 {
   font-family: 'Roboto Mono', monospace;
   color: #11999E;
 }
+
+p {
+  line-height: 2;
+}
+
+a {
+  font-family: 'Jost', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+  color: #11999E;
+}
+
+
+a:hover {
+  color: white;
+}
+/*Can :hover to img; pseudo */
+
+/*********** Tag Selectors *************/
+
 
 .pro {
   text-decoration: underline;
@@ -68,56 +91,40 @@ h3 {
 .top-cloud {
   position: absolute;
   right: 300px;
-  top: 50px;
+  top: 40px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  left: 250px;
   bottom: 300px;
+}
+
+.mountain {
+  height: 350px;
 }
 
 .top-container {
   background-color: #5b8c85;
   position: relative;
   padding-top: 100px;
+margin-bottom: 0;
 }
 
-p {
-  line-height: 2;
+.middle-container {
+  padding: 50px 0;
 }
-
-.middle-container {}
 
 .bottom-container {
-  color: #11999E;
   background-color: #66BFBF;
-  padding-top: 50px;
-  padding-bottom: 20px;
+  padding: 50px 0 20px;
+
 }
 
 .contact-me {}
 
-.footer {
-  color: #EAF6F6;
-  padding-top: 25px;
-}
 
-.footer-link {
-  color: #11999E;
-  padding-bottom: 0px;
-}
 
-a {
-  font-family: 'Jost', sans-serif;
-  margin: 10px 20px;
-  text-decoration: none;
-}
-
-a:hover {
-  color: white;
-  4
-}
 
 .contactmessage {
   width: 40%;
@@ -139,9 +146,9 @@ a:hover {
   font-size: 20px;
   font-weight: 100;
   padding: 14px;
-  box-shadow: 1px 1px 20px 0px #000000;
-  -webkit-box-shadow: 1px 1px 20px 0px #000000;
-  -moz-box-shadow: 1px 1px 20px 0px #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
   text-shadow: 1px 1px 20px #000000;
   border: solid #337FED 1px;
   text-decoration: none;
@@ -164,3 +171,14 @@ a:hover {
   border-radius: 20px;
   text-decoration: none;
 }
+
+.copy {
+  color: white;
+font-size: 0.75rem;
+margin: 20px 0;
+}
+
+/*********** ID Selectors *************
+Only one ID name per page
+This overrides tag selectors
+ */
